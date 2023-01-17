@@ -6,7 +6,7 @@ on:
 
 jobs:
   play-mode-test:
-    runs-on: [self-hosted, dev-pc-windows]
+    runs-on: [self-hosted, surface-windows]
     steps:
       - name: Checkout
         uses: actions/checkout@v3
